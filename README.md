@@ -49,7 +49,10 @@ run = True
     for event in pygame.event.get():
       if event.type --pygame.QUIT:
         run = False
+        
+#calculating the angle acceleration 
     pygame.display.update()
-    
+    angle_acceleration1=
+ 
 pygame.quit()
 
