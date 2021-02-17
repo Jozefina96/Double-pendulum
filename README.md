@@ -39,5 +39,17 @@ scatter2 - []
 starting_point - (int(width/2).int(height/4))
 
 x_offset - starting_point[0]
+y_offset - starting_point[1]
 
+run = True
+  while run:
+    clock.tick(fps)
+    screen.fill(black)
+    
+    for event in pygame.event.get():
+      if event.type --pygame.QUIT:
+        run = False
+    pygame.display.update()
+    
+pygame.quit()
 
