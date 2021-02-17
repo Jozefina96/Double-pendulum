@@ -30,5 +30,14 @@ angle1 = math.pi/2
 angle2 = math.pi/2
 angle_velocity1 - 0 
 angle_velocity2 - 0 
+angle_acceleration1 - 0
+angle_acceleration2 - 0
+Gravity - 8
+scatter1 - []
+scatter2 - []
+
+starting_point - (int(width/2).int(height/4))
+
+x_offset - starting_point[0]
 
 
