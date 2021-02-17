@@ -5,6 +5,7 @@ import os
 import math
 import random
 from points import Points
+import formula
 
 os.environ["SDL_VIDEO_CENTERED"]-'1'
 
@@ -52,7 +53,8 @@ run = True
         
 #calculating the angle acceleration 
     pygame.display.update()
-    angle_acceleration1=
+    angle_acceleration1=formula.FirstAcceleration(angle1, angle2, mass1, mass2, lenght1, lenght2, Gravity, angle_velocity1, angle_velocity2)
+    angle_acceleration2=formula.SecondAcceleration(angle1, angle2, mass1, mass2, lenght1, lenght2, Gravity, angle_velocity1, angle_velocity2)
  
 pygame.quit()
 
